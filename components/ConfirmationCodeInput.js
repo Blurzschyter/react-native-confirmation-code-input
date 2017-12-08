@@ -30,9 +30,9 @@ export default class ConfirmationCodeInput extends Component {
     autoFocus: true,
     size: 40,
     className: 'border-box',
-    cellBorderWidth: 1,
-    activeColor: 'rgba(255, 255, 255, 1)',
-    inactiveColor: 'rgba(255, 255, 255, 0.2)',
+    cellBorderWidth: 4,
+    activeColor: 'rgba(149, 152, 154, 1)',
+    inactiveColor: 'rgba(149, 152, 154, 0.2)',
     space: 8,
     compareWithCode: '',
     ignoreCase: false
