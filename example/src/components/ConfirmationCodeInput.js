@@ -16,8 +16,8 @@ export default class ConfirmationCodeInput extends Component {
     inactiveColor: PropTypes.string,
     ignoreCase: PropTypes.bool,
     autoFocus: PropTypes.bool,
-    codeInputStyle: TextInput.propTypes.style,
-    containerStyle: View.propTypes.style,
+    codeInputStyle: PropTypes.object,
+    containerStyle: PropTypes.object,
     onFulfill: PropTypes.func,
   };
   
